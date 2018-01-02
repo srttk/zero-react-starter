@@ -3,7 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 20px;
+}
 body {
     background-color: #f56;
+    
 }
+
+#app {
+    background: linear-gradient(#E91E63 50%, #9C27B0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica";
+    color: #fff;
+}
+ #app h1 {
+     transform: rotate(-15deg);
+     font-size: 6rem;
+ }

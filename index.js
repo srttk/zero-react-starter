@@ -5,7 +5,7 @@ import './index.css';
 
 const App = () => (
 
-    <h1>Hello World</h1>
+    <h1>Hello World!</h1>
 )
 
 render(<App/>, document.getElementById('app'))
