@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.js --out-dir build/output"
+    "start": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "build:cutom": "parcel build ./src/index.html --out-dir build/output",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "clean": "rm -r ./dist"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +17,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.4.1"
+    "parcel-bundler": "^1.5.1"
   },
   "dependencies": {
     "react": "^16.2.0",
