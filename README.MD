@@ -1,6 +1,6 @@
 # PARCELJS REACT STARTER :fire:
 
-Parcel is a zero configuration module bundler :sunglasses:
+Zero configuration react starter kit :sunglasses:
 
 ## Installation 
 Clone repo
