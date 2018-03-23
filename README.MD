@@ -1,11 +1,8 @@
 # ZERO CONFIG REACT STARTER :fire:
 :sunglasses: Zero configuaration React Starter 🔥
 
-<<<<<<< HEAD
-Zero configuration react starter kit :sunglasses:
-=======
+
 ![Zero configuaration React Starter](banner.png)
->>>>>>> :poop: Adde banner , App style changes
 
 ## Installation 
 Clone repo
