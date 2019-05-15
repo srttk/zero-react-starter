@@ -4,6 +4,7 @@
 
 ![Zero configuaration React Starter](banner.png)
 
+
 ## Installation 
 Clone repo
 
