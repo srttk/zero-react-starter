@@ -1,60 +1,22 @@
-* {
+*,*::after,::before{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 html {
-    font-size: 20px;
+    font-size: 10px;
     word-spacing: 1px;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     
 }
 body {
-    background-color: #f56;
+    background-color: #fff;
+    font-size: 16px;
     
 }
 
-#app {
-    background: linear-gradient(#E91E63 50%, #9C27B0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: "Helvetica";
-    color: #fff;
+.app {
+    text-align: center;
 }
- #app h2 {
-     transform: rotate(-15deg);
-     font-size: 3.5rem;
-     background: #121212;
-     padding: 5px;
-     border-radius: 3px;
-     margin-bottom: 15px;
-     transition: all .3s ease-in-out;
- }
 
- #app h2:hover {
-     transform: rotate(-15deg)  scale(1.1);
- }
-
- .description {
-     background-color: #21ac2b14;
-     color: #121212;
-     transform:  translateY(80px) ;
-     padding:10px;
-     text-align: center;
-     border-radius: 3px;
-     margin:3px 0;
- }
- .author {
-     font-size: 18px;
-     color: #dedede82;
-     margin-top: 5px;
- }
-
- @media screen and (max-width:600px) {
-    #app h2 {
-        font-size: 1.5rem;
-    }
- }
